@@ -17,7 +17,7 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + '@' + SQL_SERVER + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE  + '?driver=ODBC+Driver+17+for+SQL+Server'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    ### Info for MS Authentication ###
+    ### Info for MS Authentication 2 ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
     CLIENT_SECRET = "7R58Q~s458Q~sAgylVCG.GLnZaBCJX2taxGPeKT6NvScP2"
     # In your production app, Microsoft recommends you to use other ways to store your secret,
