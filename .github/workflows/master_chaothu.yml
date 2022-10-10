@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'chaothu'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E01F097CA7A442286E441E4E50061A3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A301602F04234A94B29CBFB4E3669B43 }}
