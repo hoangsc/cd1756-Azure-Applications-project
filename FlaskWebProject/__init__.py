@@ -15,7 +15,7 @@ app.config.from_object(Config)
 streamHandler = logging.StreamHandler()
 streamHandler.setLevel(logging.INFO)
 streamHandler.setFormatter(logging.INFO)
-#app.logger.addHandler(streamHandler)
+app.logger.addHandler(streamHandler)
 
 Session(app)
 db = SQLAlchemy(app)
