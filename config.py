@@ -17,9 +17,9 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + '@' + SQL_SERVER + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE  + '?driver=ODBC+Driver+17+for+SQL+Server'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
-    ### Info for MS Authentication 2 ###
+    ### Info for MS Authentication 3 ###
     ### As adapted from: https://github.com/Azure-Samples/ms-identity-python-webapp ###
-    CLIENT_SECRET = "7R58Q~s458Q~sAgylVCG.GLnZaBCJX2taxGPeKT6NvScP2"
+    CLIENT_SECRET = "7V2q8Q~h12bAF1VxjN2361wiSq-YbMzPO.xF-NaGl"
     # In your production app, Microsoft recommends you to use other ways to store your secret,
     # such as KeyVault, or environment variable as described in Flask's documentation here:
     # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
