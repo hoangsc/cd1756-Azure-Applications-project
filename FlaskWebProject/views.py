@@ -76,9 +76,9 @@ def login():
         next_page = request.args.get('next')
         if not next_page or url_parse(next_page).netloc != '':
             next_page = url_for('home')
+        app.logger.warning('Admin logged in successfully')
         return redirect(next_page)
     session["state"] = str(uuid.uuid4())
-    app.logger.warning('Admin logged in successfully') # hcdone
     auth_url = _build_auth_url(scopes=Config.SCOPE, state=session["state"])
     return render_template('login.html', title='Sign In', form=form, auth_url=auth_url)
 
